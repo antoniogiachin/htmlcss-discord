@@ -157,20 +157,21 @@ header .header__row .btn a{
 
 /* main  */
 
-.banner--first{
-    min-height: 600px;
-    
+/* banner generale  */
+.banner{
+    min-height: 800px;    
 }
 
 .banner__container{
     width: 80%;
-    margin: auto;
+    max-width: 1500px;
+    margin: 0px auto;
     height:100%;
-    min-height: 600px;  
-    background-color: red;  
+    min-height: 800px;  
     position: relative;
 }
 
+    /* centratura banner  */
 .banner__center{
     width: 70%;
     position: absolute;
@@ -178,33 +179,43 @@ header .header__row .btn a{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
+    /* contenuti center float & style  */
 .banner__center::after{
     content: "";
     display: table;
     clear: both;
 }
-
-.banner__img{
+    
+.banner__center .banner__img{
     width: 70%;
     float: left;
 }
 
-.banner__img img{
+.banner__center .banner__img img{
     width: 100%;
     object-fit: cover;
 }
 
-.banner__text{
+.banner__center .banner__text{
     width: 30%;
     float: left;
     padding: 40px;
     font-size: 1.2em;
 }
 
-.banner__text h2{
+.banner__center .banner__text h2{
     margin-bottom: 15px;
 }
 
+.banner__center.banner--big{
+    width: 80%;
+}
 
+.banner__text.text--big{
+    width: 40%;
+    font-size: 1.7em;
+}
 
+.banner__img.img--big{
+    width: 60%;
+}
