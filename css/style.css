@@ -157,50 +157,54 @@ header .header__row .btn a{
 
 /* main  */
 
-main .banner{
+.banner--first{
     min-height: 600px;
+    
+}
+
+.banner__container{
+    width: 80%;
+    margin: auto;
+    height:100%;
+    min-height: 600px;  
+    background-color: red;  
     position: relative;
 }
 
-main .banner.banner--grey{
-    background-color: #f6f6f6 ;
-}
-
-section .section__container{
-    max-width: 80%;
-    height: 60%;
+.banner__center{
+    width: 70%;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
-section .section__container::after{
-    display: table;
+.banner__center::after{
     content: "";
+    display: table;
     clear: both;
 }
 
-section .banner__img{
-    width: 60%;
+.banner__img{
+    width: 70%;
     float: left;
 }
 
-section .banner__img img{
+.banner__img img{
     width: 100%;
+    object-fit: cover;
 }
 
-section .banner__text{
+.banner__text{
     width: 30%;
-    float: right;
+    float: left;
+    padding: 40px;
+    font-size: 1.2em;
 }
 
-section .banner__text h2{
-    font-size: 30px;
+.banner__text h2{
     margin-bottom: 15px;
 }
 
-section .banner__text p{
-    line-height: 30px;
-}
+
 
