@@ -154,3 +154,53 @@ header .header__row .btn a{
     background-color: #222;
     color: #fff;
 }
+
+/* main  */
+
+main .banner{
+    min-height: 600px;
+    position: relative;
+}
+
+main .banner.banner--grey{
+    background-color: #f6f6f6 ;
+}
+
+section .section__container{
+    max-width: 80%;
+    height: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+section .section__container::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+section .banner__img{
+    width: 60%;
+    float: left;
+}
+
+section .banner__img img{
+    width: 100%;
+}
+
+section .banner__text{
+    width: 30%;
+    float: right;
+}
+
+section .banner__text h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+section .banner__text p{
+    line-height: 30px;
+}
+
