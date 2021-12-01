@@ -187,7 +187,7 @@ header .header__row .btn a{
 }
     
 .banner__center .banner__img{
-    width: 70%;
+    width: 50%;
     float: left;
 }
 
@@ -197,10 +197,10 @@ header .header__row .btn a{
 }
 
 .banner__center .banner__text{
-    width: 30%;
-    float: left;
-    padding: 40px;
-    font-size: 1.2em;
+    width: 40%;
+    float: right;
+    padding: 30px 40px;
+    font-size: 1.3em;
 }
 
 .banner__center .banner__text h2{
@@ -208,14 +208,18 @@ header .header__row .btn a{
 }
 
 .banner__center.banner--big{
-    width: 80%;
+    width: 90%;
 }
 
-.banner__text.text--big{
-    width: 40%;
+.banner__text.text--big{    
     font-size: 1.7em;
+    padding: 40px;
+    float: left;
+    width: 40%;
 }
 
 .banner__img.img--big{
-    width: 60%;
+    float: right;
+    width: 40%;
 }
+
