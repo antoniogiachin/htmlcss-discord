@@ -13,9 +13,30 @@
     max-width: 1180px;
 }
 
+.fas.fa-long-arrow-alt-down{
+    margin-right: 10px;
+}
+
+/* hover  */
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+.btn a:hover, .btn--big a:hover{
+    text-decoration: underline;
+    box-shadow: 3px 3px 6px #222;
+}
+
+.btn--big.btn--black a:hover{
+    text-decoration: underline;
+    box-shadow: 3px 3px 6px #fff;
+}
+
 /* header  */
 header {
     background-color: #3163E0;
+    z-index: 999;
+    
 }
 
 header .header__row{
@@ -86,11 +107,50 @@ header .header__row .btn a{
     color: #222;
 }
     
-/* header hover  */
-nav ul li a:hover{
-    border-bottom:3px solid #222;
+
+
+/* section jumbotron */
+#jumbotron {
+    min-height: 600px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
 
-header .header__row .btn a:hover{
-    text-decoration: underline;
+#jumbotron .jumbotron__content{
+    max-width: 800px;
+    height: 50%;
+    text-align: center;
+    padding: 0px 40px;
+    font-size: 1.5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+#jumbotron .jumbotron__content h1, #jumbotron .jumbotron__content p {
+    margin-bottom: 30px;
+}
+
+#jumbotron .jumbotron__content .btn--big{
+    display: inline-block;
+    margin:0px 20px;
+}
+
+.btn--big a{
+    background-color: #fff;
+    color: #222 ;
+    border-radius: 40px;
+    display: inline;
+    padding: 16px 32px;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.btn--big.btn--black a{
+    background-color: #222;
+    color: #fff;
 }
