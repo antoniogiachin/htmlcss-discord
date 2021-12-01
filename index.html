@@ -6,145 +6,179 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Htmlcss-discord</title>
+    <title>prova discord</title>
 </head>
 <body>
 
     <!-- inizio header  -->
     <header>
+        <div class="row">
 
-        <div class="container">
-            <div class="header__row">
-                <div class="logo">
-                    <a href="#" ><img src="img/logo.svg" alt="discord logo"></a>
-                </div>
-                
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="#">Scarica</a>
-                        </li>
-                        <li>
-                            <a href="#">Perché Discord</a>
-                        </li>
-                        <li>
-                            <a href="#">Nitro</a>
-                        </li>
-                        <li>
-                            <a href="#">Sicurezza</a>
-                        </li>
-                        <li>
-                            <a href="#">Assistenza</a>
-                        </li>
-                    </ul>
-                </nav>
-
-                <div class="btn">
-                    <a href="#">Accedi</a>
-                </div>
+            <div class="header__logo">
+                <a href="#">
+                    <img src="img/logo.svg" alt="discord-logo">
+                </a>
             </div>
-            
-        </div>
 
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Scarica</a>
+                    </li>
+                    <li>
+                        <a href="#">Perché Discord</a>
+                    </li>
+                    <li>
+                        <a href="#">Nitro</a>
+                    </li>
+                    <li>
+                        <a href="#">Sicurezza</a>
+                    </li>
+                    <li>
+                        <a href="#">Assistenza</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="btn">
+                <a href="#">Accedi</a>
+            </div>
+
+        </div>
     </header>
     <!-- fine header  -->
 
-    <!-- inizio section  -->
-    <section id="jumbotron">        
-            
-        <div class="jumbotron__content">
+    <!-- inizio sezione jumbotron  -->
+    <section id="jumbotron">
+        <!-- con center mi riferisco a div ausiliari per centrare  -->
+        <div class=" jumbo__center">
+
             <h1>Il tuo posto per parlare</h1>
-            <p>Che tu taccia parte di un club scolastico,
-            gruppo al gamer, comunita artistica mondiale, o semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme, Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso</p>
-            <div class="btn--big"><a href="#"> <i class="fas fa-long-arrow-alt-down"></i>Scarica per Mac</a> </div>
-            <div class="btn--big btn--black"><a href="#">Apri Discord nel tuo browser</a></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eos tempore rem harum voluptatem
+                exercitationem, cum iusto. Corporis sed ad quas neque saepe eos aliquam architecto quidem. Hic, omnis
+                soluta.</p>
+            <div class="btn--big">
+                <a href="#"> <i class="fas fa-long-arrow-alt-down"></i>
+                    Scarica per mac
+                </a>
+            </div>
+            <div class="btn--big btn--black">
+                <a href="#">Apri Discord nel tuo browser</a>
+            </div>
+
+
         </div>
-                    
+
     </section>
-    <!-- fine section  -->
+    <!-- fine sezione jumbotron  -->
+
 
     <!-- inizio main  -->
     <main>
 
-        <!-- inizio primo banner -->
+        <!-- banner centrali  -->
         <section class="banner">
 
-            <!-- prima container all'80% con max width, poi div di servizio center per centrare il contenuto  -->
-            <div class="banner__container">
-                
-                <div class="banner__center">
-                    
-                    <div class="banner__img">
-                        <img src="img/item1.svg" alt="itemfirst">
-                    </div> 
-                    <div class="banner__text">
-                        <h2>Un luogo a invito con tutto lo spazio necessario per parlare</h2>
-                        <p>I server Discord sono organizzati in canali tematici in cui puoi collaborare, condividere o semplicemente parlare della tua giornata senza intasare una chat di gruppo</p>
-                    </div>
+            <div class="banner__center">
 
+                <div class="banner__img">
+                    <img src="img/item1.svg" alt="item1-img">
                 </div>
-               
+
+                <div class="banner__text">
+                    <h2>Un luogo a invito con tutto lo spazio necessario per parlare</h2>
+                    <p>
+                        I server Discord sono organizzati in canali tematici in cui puoi collaborare, condividere o
+                        semplicemente parlare della
+                        tua giornata senza intasare una chat di gruppo
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- banner second particolare float diversi e dimensioni legg magigori  -->
+        <section class="banner">
+
+            <div class="banner__center banner--second">
+
+                <div class="banner__text">
+                    <h2>Dove trovarsi è facile</h2>
+                    <p>
+                        Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo server possono vedere che
+                        sei lì e unirsi
+                        istantaneamente senza dover chiamare
+                    </p>
+                </div>
+
+                <div class="banner__img banner--second">
+                    <img src="img/item2.svg" alt="item2-img">
+                </div>
+
             </div>
 
         </section>
-        <!-- fine primo banner  -->
 
-        <!-- inizio secondo banner  -->
         <section class="banner">
-        
-            <!-- prima container all'80% con max width, poi div di servizio center per centrare il contenuto  -->
-            <div class="banner__container">
-                <!-- classe big per invertire ordine e dimensioni  -->
-                <div class="banner__center banner--big">
-                        
-                    <div class="banner__text text--big">
-                        <h2>Dove trovarsi è facile</h2>
-                        <p>Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo server possono vedere che sei lì e unirsi istantaneamente senza dover chiamare</p>
-                    </div>
-                    <div class="banner__img img--big">
-                        <img src="img/item2.svg" alt="itemsecond">
-                    </div>
 
+            <div class="banner__center">
+
+                <div class="banner__img">
+                    <img src="img/item3.svg" alt="item3-img">
                 </div>
-        
-            </div>
-        
-        </section>
-        <!-- fine secondo banner  -->
 
-        <!-- inizio terzo banner (come il primo struttura)  -->
-        <section class="banner">
-        
-            <!-- prima container all'80% con max width, poi div di servizio center per centrare il contenuto  -->
-            <div class="banner__container">
-        
-                <div class="banner__center">
-        
-                    <div class="banner__img">
-                        <img src="img/item3.svg" alt="itemthird">
-                    </div>
-                    <div class="banner__text">
-                        <h2>Da pochi a un fandom</h2>
-                        <p>Dai inizio a una community di qualsiasi dimensione con strumenti di moderazione e accesso ai membri personalizzabile. Concedi ai membri poteri speciali, crea canali privati, e molto altro</p>
-                    </div>
-        
+                <div class="banner__text">
+                    <h2>Da pochi a fandom</h2>
+                    <p>
+                        Dai inizio a una community di qualsiasi dimensione con strumenti di moderazione e accesso ai
+                        membri personalizzabile.
+                        Concedi ai membri poteri speciali, crea canali privati, e molto altro
+                    </p>
                 </div>
-        
-            </div>
-        
-        </section>
-        <!-- fine terzo banner  -->
 
+            </div>
+
+        </section>
+        <!-- fine banner centrali  -->
+
+
+        <!-- banner bottom  -->
+        <section class="bottom__banner">
+
+            <div class="bottom__text">
+                <h2>Tecnologia affidabile per tenersi in contatto</h2>
+                <p>
+                    Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao
+                    in video, guarda gli
+                    amici giocare in streaming, o riunitevi in una sessione di disegno con la condivisione schermo
+                </p>
+            </div>
+
+            <div class="bottom__img">
+                <img src="img/item4-big.svg" alt="">
+            </div>
+
+            <div class="bottom__download">
+                <h3>Pronto a iniziare la tua avventura?</h3>
+                <div class="btn--big btn--blu">
+                    <a href="#">
+                        <i class="fas fa-long-arrow-alt-down"></i>
+                        Scarica per mac
+                    </a>
+                </div>
+            </div>
+
+        </section>
+        <!-- fine banner bottom  -->
 
     </main>
     <!-- fine main  -->
 
-    <!-- inizio footer  -->
-    <footer>
 
-    </footer>
-    <!-- fine footer  -->
+    <footer></footer>
+
 
 
 </body>
+
 </html>
