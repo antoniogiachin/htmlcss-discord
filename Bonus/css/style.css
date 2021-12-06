@@ -1,0 +1,310 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* generali  */
+
+    /* float & clearfix  */
+.clearfix:after{
+    display: table;
+    content: "";
+    clear: both;
+} 
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+    /* container  */
+.container{
+    width: 90%;
+    max-width: 1180px;
+    height: 600px;
+    min-height: 600px;
+    margin: 80px auto;   
+}
+
+.container-nav{    
+    margin: auto;
+    width: 90%;
+    max-width: 1180px;
+}
+
+.container-plus{
+    width: 95%;
+    max-width: 1380px;
+    height: 800px;
+    min-height: 800px;
+    margin: 80px auto;
+}
+
+.container-min{
+    width: 90%;
+    max-width: 780px;
+    margin: auto;
+    padding: 180px 0px;
+}
+
+.ft-container{
+    margin: 0px auto;
+    width: 90%;
+    max-width: 1180px;
+}
+
+    /* width  */
+.w-50{
+    width: 50%;
+}
+
+    /* logo  */
+.logo{
+    width: 20%;
+    height: 100%;
+}
+
+.logo img{
+    width: 50%;
+    height: 100%;
+    object-fit: contain;
+    vertical-align: middle;
+}
+
+    /* btn  */
+.btn-big{
+    display: inline-block;
+}
+
+.btn-big a{
+    padding: 16px 32px;
+    background-color:#fff;
+    text-decoration: none;
+    color: #222;
+    border-radius: 40px;
+}
+
+.btn-big i{
+    margin-right: 10px;
+}
+
+.btn-min a{
+    padding: 8px 16px;
+    background-color: #fff;
+    text-decoration: none;
+    color: #222;
+    border-radius: 40px;
+    width: 20%;
+    text-align: right;
+}
+
+.btn-black a{
+    background-color: #222;
+    color: #fff;
+}
+
+.btn-blue a{
+    background-color: #3163E0;
+    opacity: 0.2;
+    color: #fff;
+}
+
+    /* mrgs  */
+.mrg-top-100{
+    margin-top: 100px;
+}
+.mrg-btm-100{
+    margin-bottom: 100px;
+}    
+
+.mrg-top-50{
+    margin-top: 50px;
+}
+
+.mrg-btm-50{
+    margin-bottom: 50px;
+}
+
+.mrg-top-30{
+    margin-top: 30px;
+}
+
+.mrg-btm-30{
+    margin-bottom: 30px;
+}
+
+.mrg-top-15{
+    margin-top: 15px;
+}
+
+.mrg-btm-15{
+    margin-bottom: 15px;
+}
+
+
+    /* padding  */
+.pd-50-100{
+    padding: 50px 100px;
+}
+
+/* header  */
+
+header{
+    height: 50px;
+    background-color: #3163E0 ;
+    line-height: 50px;
+}
+#header-nav{
+    width: 60%;
+}
+
+#header-nav ul{
+    overflow: hidden;
+    text-align: center;
+}
+
+#header-nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0px 10px;
+}
+
+#header-nav ul li a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+
+/* jumbotron  */
+#jumbotron{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    min-height: 600px;
+    text-align: center;
+    color: #fff;
+}
+
+#jumbotron h1{
+    font-size: 3.5em;
+}
+
+#jumbotron .btn-big{
+    margin-right: 40px;
+}
+
+
+/* main  */
+section .container{
+    height: 800px;
+    min-height: 800px;
+    margin: 100px auto;
+}
+section img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+section p{
+    line-height: 25px;
+}
+    
+section h2{
+    font-size: 3em;
+}
+
+    /* section bottom  */
+#section-bottom{
+    text-align: center;
+}
+
+#section-bottom img{
+    width: 100%;
+    height: 70%;
+    object-fit: contain;
+}
+
+.start-adventure{
+    width: 60%;
+    margin: 50px auto;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+}
+
+/* footer  */
+footer{
+    background-color: #222;
+    color: #fff;
+    padding: 50px;
+}
+
+footer h4{
+    color: #3163E0;
+    font-size: 1.8em;
+}
+
+footer span{
+display: block;
+}
+
+    /* ft col left  */
+footer .ftcol-left, .ftcol-right{
+    width: calc(100% / 5 - 40px);
+    margin:0px 20px;
+}
+
+footer .ftcol-left ul{
+    text-align: left;
+    list-style-type: none;
+}
+
+footer .ftcol-left ul li{
+    margin: 10px 20px 0px 0px;
+    display: inline-block;
+
+}
+
+footer .ftcol-left ul li a{
+    padding: 0px;
+    text-decoration: none;
+    color: #fff;
+}
+
+    /* ft col right  */
+.ftcol-right h4{
+    font-size: 1em;
+}
+
+.ftcol-right ul{
+    line-height: 30px;
+}
+
+.ftcol-right li{
+    display: block;
+    text-align: left;
+}
+
+.ftcol-right a{
+    color: #fff;
+    text-decoration: none;
+}
+
+    /* bottom nav  */
+
+#bottom-nav{
+    height: 80px;
+    line-height: 80px;
+    border-top: 1px solid #fff;
+}
+
+#bottom-nav a{
+    opacity: 1;
+}
