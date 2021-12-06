@@ -1,3 +1,6 @@
+header{
+    z-index: 999;
+}    
     /* hover  */
 
 #header-nav ul li a:hover {
@@ -33,4 +36,84 @@
 
 .ftcol-right a:hover{
     text-decoration: underline;
+}
+
+
+/* wave  */
+.ps-rel-wave, .ps-rel-wave2{
+    position: relative;
+    padding: 10px;
+}
+
+.wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 56px;
+}
+
+.wave .shape-fill {
+    fill: #ffffff;
+}
+
+.wave2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave2 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 56px;
+}
+
+.wave2 .shape-fill {
+    fill: #fff;
+}
+
+.wave3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave3 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 56px;
+}
+
+.wave3 .shape-fill {
+    fill: #fff;
+}
+
+.bg-f6{
+    background-color: #f6f6f6;
+}
+
+.bg-fff{
+    background-color: #fff;
+}
+
+.pd-25-0{
+    padding: 25px 0px;
 }

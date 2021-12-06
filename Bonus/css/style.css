@@ -26,8 +26,6 @@
 .container{
     width: 90%;
     max-width: 1180px;
-    height: 600px;
-    min-height: 600px;
     margin: 80px auto;   
 }
 
@@ -40,8 +38,6 @@
 .container-plus{
     width: 95%;
     max-width: 1380px;
-    height: 800px;
-    min-height: 800px;
     margin: 80px auto;
 }
 
@@ -208,15 +204,12 @@ header{
 
 /* main  */
 section .container{
-    height: 800px;
-    min-height: 800px;
     margin: 100px auto;
 }
 section img{
     width: 100%;
-    height: 100%;
-    object-fit: contain;
 }
+
 section p{
     line-height: 25px;
 }
@@ -231,9 +224,7 @@ section h2{
 }
 
 #section-bottom img{
-    width: 100%;
-    height: 70%;
-    object-fit: contain;
+    width: 100%;    
 }
 
 .start-adventure{
