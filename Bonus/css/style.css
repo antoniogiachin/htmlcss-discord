@@ -158,13 +158,17 @@ header{
     height: 50px;
     background-color: #3163E0 ;
     line-height: 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
 }
+
 #header-nav{
     width: 60%;
 }
 
 #header-nav ul{
-    overflow: hidden;
     text-align: center;
 }
 
